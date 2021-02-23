@@ -1,0 +1,184 @@
+*  {
+    font-family: 'Space Grotesk', sans-serif;
+    background: #F2F2F2;
+    margin: 16px;
+}
+/*HERO*/
+.container {
+    width: 100%;
+    max-width: 1134px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+header {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 36px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 27px;
+    border: solid 0px;
+    border-radius: 4px darkgrey;
+    color: #111111;;
+    transition: all ease 0.3s;
+    background: #F2F2F2;
+}
+.login-button:hover {
+    background-color:#EB5A43;
+    color: #fff;
+}
+.logo-text {
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+color: #333333;
+}
+.header-left {
+    display: flex;
+}
+.header-right {
+    box-sizing: border-box;
+    text-decoration: none;
+    float: right;
+}
+.nav {
+    margin-top: 1px;
+    font-size: 16px;
+    color:#333333;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 13px;
+    transition: all ease 0.3s;
+    font-size: 16px;
+    line-height: 32px;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-inline: 10px;
+    margin-top: 1px;
+    font-size: 16px;
+    color:#333333;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 13px;
+    transition: all ease 0.3s;
+    font-size: 16px;
+    line-height: 32px;
+}
+nav a:hover {
+    opacity: 0.7;
+}
+.slogan {
+    margin-top: 3vh;
+}
+.slogan h1 {
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #EB5A43;
+}
+.slogan h2 {
+    width: 385px;
+    height: 160px;
+    left: 125px;
+    top: 227px;
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    /* or 111% */
+    letter-spacing: -2px;
+    color: #333333;
+}
+.slogan h3 {
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+color: #333333;
+}
+.get-button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 36px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 27px;
+    border: solid 0px;
+    border-radius: 4px;
+    color: #fff;
+    transition: all ease 0.3s;
+    background: #EB5A43;
+}
+.get-button:hover {
+    background-color:#fff;
+    color:#111111;
+}
+
+/* mega*/
+.mega-right img {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 464px;
+    left: 735px;
+    top: 108px;
+}
+
+
+/*END*/
+.mega-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.border {
+    width: 1170px;
+height: 2px;
+left: 135px;
+top: 739px;
+background: #111111;
+}
+.end article {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+}
+.mega-card img {
+width: 80px;
+height: 80px;
+left: 135px;
+top: 739px;
+
+}
+.mega-info h1 {
+font-family: Space Grotesk;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+}
+.mega-info h2 {
+font-family: Space Grotesk;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: rgba(51, 51, 51, 0.5);
+}
+
+
+    
